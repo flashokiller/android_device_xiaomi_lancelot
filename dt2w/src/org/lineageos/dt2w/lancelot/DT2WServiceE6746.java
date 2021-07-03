@@ -1,4 +1,4 @@
-package org.lineageos.dt2w.lancelot;
+package org.lineageos.dt2w.e6746;
 
 import android.app.Service;
 import android.content.ContentResolver;
@@ -14,7 +14,7 @@ import android.os.UserHandle;
 import android.provider.Settings.Secure;
 
 public class DT2WServiceLancelot extends Service {
-    private static final String TAG = "DT2WServiceLancelot";
+    private static final String TAG = "DT2WServiceE6746";
     private Context mContext;
     private Handler mHandler;
     private CustomSettingsObserver mCustomSettingsObserver;
