@@ -40,7 +40,7 @@ PRODUCT_MANUFACTURER := micromax
 PRODUCT_GMS_CLIENTID_BASE := android-micromax
 TARGET_VENDOR := xiaomi
 TARGET_VENDOR_PRODUCT_NAME := micromax
-PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="lancelot-user 10 QP1A.190711.020 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="redfin-user 11 RQ3A.210605.005 7349499 release-keys"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := google/redfin/redfin:11/RQ3A.210605.005/7349499:user/release-keys
