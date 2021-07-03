@@ -15,7 +15,7 @@
 #
 
 # Inherit from merlin device makefile
-$(call inherit-product, device/xiaomi/lancelot/device.mk)
+$(call inherit-product, device/xiaomi/e6746/device.mk)
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
@@ -32,14 +32,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/handheld_system_ext.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_system_ext.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := lancelot
-PRODUCT_NAME := aosp_lancelot
+PRODUCT_DEVICE := e6746
+PRODUCT_NAME := aosp_e6746
 PRODUCT_BRAND := Redmi
-PRODUCT_MANUFACTURER := xiaomi
+PRODUCT_MANUFACTURER := micromax
 
-PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+PRODUCT_GMS_CLIENTID_BASE := android-micromax
 TARGET_VENDOR := xiaomi
-TARGET_VENDOR_PRODUCT_NAME := lancelot
+TARGET_VENDOR_PRODUCT_NAME := micromax
 PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="lancelot-user 10 QP1A.190711.020 release-keys"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
