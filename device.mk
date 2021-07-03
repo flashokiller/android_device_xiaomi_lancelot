@@ -23,7 +23,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product, vendor/xiaomi/lancelot/lancelot-vendor.mk)
+$(call inherit-product, vendor/xiaomi/e6746/e6746-vendor.mk)
 
 # IMS
 $(call inherit-product, vendor/mediatek/ims/mtk-ims.mk)
@@ -55,7 +55,7 @@ PRODUCT_PACKAGES += \
 
 # DT2W
 PRODUCT_PACKAGES += \
-    DT2W-Service-Lancelot
+    DT2W-Service-E64746
 
 # Fstab
 PRODUCT_COPY_FILES += \
@@ -81,7 +81,7 @@ PRODUCT_PACKAGES += \
  
 # Light
 PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-service.lancelot
+    android.hardware.light@2.0-service.e6746
   
 # NFC stack (AOSP)
 PRODUCT_PACKAGES += \
